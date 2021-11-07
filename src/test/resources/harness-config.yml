@@ -258,5 +258,5 @@ databasesUnderTest:
 
   - name: db2-z
     url: jdbc:db2://204.90.115.218:5035/DALLASB:emulateParameterMetaDataForZCalls=1;
-    username: IBMUSER
-    password: THISISNOTTHERIGHTPASSWORD
+    username: LTHUSER
+    password: lbu@@22
