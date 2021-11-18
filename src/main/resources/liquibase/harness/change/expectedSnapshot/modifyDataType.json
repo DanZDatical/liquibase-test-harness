@@ -4,19 +4,16 @@
       "liquibase.structure.core.Table": [
         {
           "table": {
-            "name": "lms_create_table_test"
+            "name": "modify_data_type_test"
           }
         }
       ],
       "liquibase.structure.core.Column": [
         {
           "column": {
-            "name": "lms_test_id"
-          },
-          "column": {
-            "name": "lms_test_timestamp",
+            "name": "intColumn",
             "type": {
-              "typeName": "datetime2"
+              "typeName": "VARCHAR"
             }
           }
         }
