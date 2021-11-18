@@ -10,6 +10,5 @@
             <column name="intColumn" type="int" valueNumeric="5"/>
             <column name="dateColumn" type="date" valueDate="2020-09-21"/>
         </addColumn>
-        <rollback/>
     </changeSet>
 </databaseChangeLog>
