@@ -12,5 +12,9 @@
                                   referencedColumnNames="id"
                                   referencedTableName="authors"
                                   validate="true"/>
+        <rollback>
+            <dropForeignKeyConstraint baseTableName="posts"
+                                      constraintName="fk_posts_authors_test"/>
+        </rollback>
     </changeSet>
 </databaseChangeLog>
