@@ -1,4 +1,4 @@
---INVALID TEST
+INVALID TEST
 
 Bug: DROP statement doesnt get generated
 
